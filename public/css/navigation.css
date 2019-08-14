@@ -1,0 +1,20 @@
+#nav-wrapper {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-items {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.nav-items:active {
+    color: #ccc;
+}
