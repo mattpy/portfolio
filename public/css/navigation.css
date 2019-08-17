@@ -1,7 +1,6 @@
 .header {
     grid-column: 1 / 12;
     grid-row: 1/2; 
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -15,14 +14,14 @@
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    padding: 20px;
+    padding-left: 20px;
 }
 
 .button:hover {
-    color: black;
-    outline: white;
+    color: rgba(214, 214, 214, 0.74);
+    transition: color 0.1s linear;
 }
 
 .active {
-    color: red;
+    font-family: 'Beth Ellen', cursive;
 }

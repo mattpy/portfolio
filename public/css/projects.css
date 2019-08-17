@@ -1,0 +1,61 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: white;
+    font-size: 30px;
+    font-family: 'Livvic', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    background: url('/images/portfolio.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    background-position: center center;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    border: 8px solid rgb(243, 243, 243);
+    grid-column: 8/12;
+    grid-row: 5/9;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+.main h1, h2, h3 {
+    margin: 10px;
+}
+
+.cursive {
+    font-family: 'Beth Ellen', cursive;
+}
+
+.footer {
+    border: 1px solid green;
+    grid-column: 1/-1;
+    grid-row: 12/-1;
+}
+
+@media (max-width: 1300px) {
+    body {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1050px) {
+    body {
+        font-size: 20px;
+    }
+}
