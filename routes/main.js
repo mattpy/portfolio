@@ -3,16 +3,16 @@ const router = express.Router();
 
 router.get('/', (req, res, next) => {
     res.render('index', {
-        name: 'Matt'
+        path: '/',
+        homeActive: 'active'
     });
 });
 
 router.get('/projects', (req, res, next) => {
-    res.render('projects');
-});
-
-router.get('/about', (req, res, next) => {
-    res.render('about');
+    res.render('projects', {
+        path: '/projects',
+        projectsActive: 'active'
+    });
 });
 
 module.exports = router;

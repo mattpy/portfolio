@@ -5,16 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/navigation.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Livvic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
-
 <body>
-    <div id="body-wrapper">
-        {{>navigation}}
-        <h1>Text to see if this works please lord</h1>
-        <p>{{name}}</p>
+    <div class="container">
+
+       <div class="header">
+           {{>navigation}}
+       </div>
+       <div class="main">
+           <h2>Hello, my name is</h2>
+           <h1>Matt</h1>
+           <span class="cursive"><h3>and I create things</h3></span>
+       </div>
+       <div class="footer">
+           footer test
+       </div>
     </div>
 </body>
 

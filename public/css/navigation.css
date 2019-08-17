@@ -1,20 +1,28 @@
-#nav-wrapper {
-    list-style: none;
+.header {
+    grid-column: 1 / 12;
+    grid-row: 1/2; 
+    border: 1px solid red;
     display: flex;
     flex-direction: row;
-}
-
-.nav-items {
-    display: flex;
-    height: 50px;
-    width: 100px;
-    background-color: blue;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-    text-decoration: none;
 }
 
-.nav-items:active {
-    color: #ccc;
+.button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.button:hover {
+    color: black;
+    outline: white;
+}
+
+.active {
+    color: red;
 }
