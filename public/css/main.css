@@ -43,13 +43,25 @@ body {
 }
 
 @media (max-width: 1300px) {
-    body {
+    body a {
         font-size: 30px;
     }
 }
 
 @media (max-width: 1050px) {
-    body {
+    body a {
         font-size: 28px;
+    }
+}
+
+@media (max-width: 450px) {
+    .main {
+        grid-column: 7/12;
+        grid-row: 4/9;
+        font-size: 0.7em;
+        text-align: center;
+    }
+    .container {
+        grid-template-rows: repeat(10, 1fr);
     }
 }
