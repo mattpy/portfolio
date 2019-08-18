@@ -26,12 +26,12 @@ body {
 .main {
     display: flex;
     flex-direction: column;
-    border: 8px solid rgb(243, 243, 243);
-    grid-column: 8/12;
-    grid-row: 5/9;
+    border: 5px solid rgb(243, 243, 243);
+    grid-column: 2/12;
+    grid-row: 2/12;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: rgba(0, 0, 0, 0.664);
 }
 
 .main h1, h2, h3 {

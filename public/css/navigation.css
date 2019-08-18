@@ -18,8 +18,8 @@
 }
 
 .button:hover {
-    color: rgba(214, 214, 214, 0.74);
-    transition: color 0.1s linear;
+    text-decoration: underline;
+    transition: text-decoration 5s ease-in;
 }
 
 .active {
